@@ -155,12 +155,12 @@ input {
     }
     &__text {
         @include textStyleSct();
+        & p {
+         text-align: justify;
+         padding: $paddingBase;
+         line-height: 1.4em;
     }
-    &__text p {
-        text-align: justify;
-        padding: $paddingBase;
-        line-height: 1.4em;
-    }
+  }
 }
 
 /* About Section */
